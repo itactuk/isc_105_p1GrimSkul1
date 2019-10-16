@@ -5,6 +5,6 @@
 #ifndef EX1ISC105SEPT2019_PUNTO1LIB_H
 #define EX1ISC105SEPT2019_PUNTO1LIB_H
 
-void invierte (char cadena[]);
+void invierte (char cadena[], int i, int cant)
 
 #endif //EX1ISC105SEPT2019_PUNTO1LIB_H

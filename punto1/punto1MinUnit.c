@@ -3,7 +3,6 @@
 //
 
 #include <minunit.h>
-
 #include "punto1Lib.h"
 
 #define MINUNIT_EPSILON 1E-12

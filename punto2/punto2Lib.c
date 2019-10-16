@@ -13,6 +13,12 @@
  * @return
  */
 COMPLEJO suma(COMPLEJO a, COMPLEJO b){
+    double resreal = 0;
+    double resimaginaria = 0;
+    resimaginaria = a.imaginaria + b.imaginaria;
+    resreal = a.real + b.real;
+    struct resimaginaria;
+    struct resreal;
 }
 
 /**
@@ -23,7 +29,12 @@ COMPLEJO suma(COMPLEJO a, COMPLEJO b){
  * @return
  */
 struct complejo resta(COMPLEJO a, COMPLEJO b){
-
+    double resreal = 0;
+    double resimaginaria = 0;
+    resimaginaria = a.imaginaria - b.imaginaria;
+    resreal = a.real - b.real;
+    struct resimaginaria;
+    struct resreal;
 }
 
 /**
@@ -36,7 +47,12 @@ struct complejo resta(COMPLEJO a, COMPLEJO b){
  * @return
  */
 COMPLEJO multiplica(struct complejo a, struct complejo b){
-
+    double resreal = 0;
+    double resimaginaria = 0;
+    resreal = a.real*b.real-a.imaginaria*b.imaginaria;
+    resimaginaria = a.real*b.imaginaria+a.imaginaria*b.real;
+    struct resimaginaria;
+    struct resreal;
 }
 
 /**
@@ -49,5 +65,10 @@ COMPLEJO multiplica(struct complejo a, struct complejo b){
  * @return
  */
 COMPLEJO divide(COMPLEJO a, COMPLEJO b){
-
+    double resreal = 0;
+    double resimaginaria = 0;
+    resreal = (a.real*b.real+a.imaginaria*b.imaginaria)/(b.real*b.real)+(b.imaginaria*b.imaginaria);
+    resimaginaria = (a.imaginaria*b.real-a.real*b.imaginaria)/(b.real*b.real)+(b.imaginaria*b.imaginaria);
+    struct resimaginaria;
+    struct resreal;
 }
